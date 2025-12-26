@@ -32,7 +32,12 @@ jobs:
       - name: Update diagram
         uses: githubocto/repo-visualizer@main
         with:
+          output_file: "diagram.svg"
           excluded_paths: "ignore,.github,.idea"
+      - name: Commit diagram
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-generate repo visualization"          
   lint:
     name: lint
     runs-on: ${{ matrix.os }}
