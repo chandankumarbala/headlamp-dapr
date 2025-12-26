@@ -108,3 +108,6 @@ Headlamp is released under the terms of the [Apache 2.0](./LICENSE) license.
 ## Frequently Asked Questions
 
 For more information about Headlamp, see the [Headlamp FAQ](https://headlamp.dev/docs/latest/faq/).
+
+
+![Visualization of the codebase](./diagram.svg)
